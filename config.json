@@ -1,0 +1,74 @@
+{
+  "DiscordBot": {
+    "clientId": "1018968953311203458",
+    "guildId": "1399124114391695370",
+    "token": "MTM5OTE0NDcyNjI5MjIwNTU3OA.Gzd2uZ.DFAftHLh6bUuQdGRZxJsz3mcylqVW6e2idbOD4"
+  },
+  "Commands": {
+    "forum": "https://votreforum.fr/",
+    "shop": "https://votreboutique.fr/",
+    "topServers": "https://top-serveurs.net/",
+    "discordSwat": "https://discord.gg/votre-lien",
+    "discordPolice": "https://discord.gg/votre-lien"
+  },
+  "Roles": {
+    "banRoles": ["1399142961505374309"],
+    "KickRoles": ["1399142961505374309"],
+    "deleteConvRoles": ["1399142961505374309"],
+    "adminRoles": ["1399142961505374309"],
+    "AcceptSuggestion": "1399142961505374309"
+  },
+  "Channels": {
+    "welcomeChannelId": "1399143080615088158",
+    "leaveChannelId": "1399143084280778933",
+    "suggestionsChannelId": "1399143112957493460",
+    "ticketChannelId": "1399143126727393431",
+    "staffChannelId": "1399143042287534242",
+    "rolesChannelId": "1399143038701277335"
+  },
+  "Server": {
+    "logoUrl": "https://media.discordapp.net/attachments/1120275956863606874/1399146788765569024/SPAM_PUB.png?ex=6887f07d&is=68869efd&hm=005cc4f88a304d84516a1a2be6a05449d86ab719e1cb803ccc3660669ce2722f&=&format=webp&quality=lossless",
+    "name": "Ghost Shop",
+    "ticketSettings": {
+      "ticketPrefix": "ticket-"
+    }
+  },
+  "Tickets": {
+    "categories": [
+      {
+        "label": "🔖 | Achat",
+        "description": "Pour acheter un élément de notre boutique.",
+        "roleId": "1399142986025009253",
+        "categoryId": "ID_DE_LA_CATEGORIE"
+      },
+      {
+        "label": "🔖 | Aide",
+        "description": "Demandes concernant les véhicules importés.",
+        "roleId": "1399142986025009253",
+        "categoryId": "1399143021773066241"
+      },
+      {
+        "label": "🔖 | Autre",
+        "description": "Signaler un problème avec un joueur.",
+        "roleId": "1399142986025009253",
+        "categoryId": "1399143027771052113"
+      },
+      {
+        "label": "🔖 | Slot",
+        "description": "Signaler un problème avec un membre du staff.",
+        "roleId": "1399142986025009253",
+        "categoryId": "1399143031021502465"
+      },
+      {
+        "label": "🔖 | Graphisme",
+        "description": "Demande de débanissement.",
+        "roleId": "1399142986025009253",
+        "categoryId": "1399143034867679343"
+      }
+    ],
+    "settings": {
+      "maxTicketsPerUser": 1,
+      "allowMultipleInDifferentCategories": false
+    }
+  }
+}
